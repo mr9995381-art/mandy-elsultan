@@ -1,0 +1,6 @@
+{
+  "name": "مندي السلطان - Mandi El Sultan",
+  "description": "الموقع الرسمي لمطعم مندي السلطان بالمهندسين - أشهى المأكولات العربية، المندي والحنيذ والمشويات وصواني العزومات الفاخرة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
