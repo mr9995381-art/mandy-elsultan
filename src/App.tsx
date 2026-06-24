@@ -20,8 +20,9 @@ export default function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [showToast, setShowToast] = useState(false);
 
-  // Initialize theme from localStorage if available
+  // Initialize theme from localStorage if available and set document title
   useEffect(() => {
+    document.title = "مندي السلطان";
     const savedTheme = localStorage.getItem('sultan_theme');
     if (savedTheme === 'dark' || savedTheme === 'light') {
       setTheme(savedTheme);
